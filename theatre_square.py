@@ -37,7 +37,7 @@ def theatre_square(n, m, a):
         total_tiles = m_tiles * n_tiles
     return total_tiles
 
-    
+
 def test_theatre_square():
     least_stones = theatre_square(6, 6, 4)
     assert least_stones == 4
